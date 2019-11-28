@@ -1,8 +1,8 @@
-# React netflix
+# React Netflix
 
 ## Description
 
-Clone website of frontend of Netflix <br/>
+Clone website Netflix (frontend) <br/>
 
 **_DEMO:_**
 
