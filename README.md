@@ -19,11 +19,11 @@ $ npm start
 
 ## Requirement
 
-- npm
+- npm (Node) / yarn
 
 ## Tools
 
-- create-react-app cli
+- create-react-app
 - react-icons-kit
 - react-router-dom
 - styled-components

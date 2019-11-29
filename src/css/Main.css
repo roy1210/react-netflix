@@ -17,6 +17,8 @@ body {
   webkit-font-smoothing: antialiased;
   background: var(--main-dark);
   color: #fff;
+  /* No scroll to X */
+  overflow-x: hidden;
 }
 
 a {
@@ -30,6 +32,7 @@ a {
   /* Don't want full height */
   height: 90vh;
   position: relative;
+  /* Gives gradient shadow */
   background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
     url(../images/bg.jpg) no-repeat center center/cover;
 }
