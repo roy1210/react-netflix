@@ -1,6 +1,6 @@
 import React from "react";
 
-export const TabPrices = () => {
+const TabPrices = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -22,3 +22,4 @@ export const TabPrices = () => {
     </svg>
   );
 };
+export default TabPrices;

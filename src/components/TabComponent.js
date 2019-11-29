@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import TabDoor from "./tabs_nav/TabDoor";
 import TabDevices from "./tabs_nav/TabDevices";
-import { TabPrices } from "./tabs_nav/TabPrices";
+import TabPrices from "./tabs_nav/TabPrices";
 import "../css/TabsNav.css";
 import TabComponentOne from "./TabComponentOne";
+import TabComponentTwo from "./TabContentTwo";
 
 class TabComponent extends Component {
   state = {
@@ -64,6 +65,10 @@ class TabComponent extends Component {
           {/* Tabs content */}
           <TabPanel>
             <TabComponentOne />
+          </TabPanel>
+
+          <TabPanel>
+            <TabComponentTwo />
           </TabPanel>
         </Tabs>
       </div>
