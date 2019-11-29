@@ -4,6 +4,7 @@ import TabDoor from "./tabs_nav/TabDoor";
 import TabDevices from "./tabs_nav/TabDevices";
 import { TabPrices } from "./tabs_nav/TabPrices";
 import "../css/TabsNav.css";
+import TabComponentOne from "./TabComponentOne";
 
 class TabComponent extends Component {
   state = {
@@ -19,9 +20,13 @@ class TabComponent extends Component {
           onSelect={tabIndex => this.setState({ tabIndex })}
         >
           <TabList className="tab-nav-container">
-            <Tab className={`${this.state.tabIndex === 0 ? "active" : null}`}>
+            <Tab
+              className={`${
+                this.state.tabIndex === 0 ? "tab-selected active" : null
+              }`}
+            >
               <TabDoor />
-              <p>
+              <p style={{ marginBottom: "1.875rem" }}>
                 <strong>
                   No commitments
                   <br />
@@ -31,7 +36,9 @@ class TabComponent extends Component {
             </Tab>
 
             <Tab
-              className={`${this.state.tabIndex === 1 ? "active" : null}`}
+              className={`${
+                this.state.tabIndex === 1 ? "tab-selected active" : null
+              }`}
               selectedIndex={this.state.tabIndex}
               onSelect={tabIndex => this.setState({ tabIndex })}
             >
@@ -42,7 +49,9 @@ class TabComponent extends Component {
             </Tab>
 
             <Tab
-              className={`${this.state.tabIndex === 2 ? "active" : null}`}
+              className={`${
+                this.state.tabIndex === 2 ? "tab-selected active" : null
+              }`}
               selectedIndex={this.state.tabIndex}
               onSelect={tabIndex => this.setState({ tabIndex })}
             >
@@ -52,6 +61,10 @@ class TabComponent extends Component {
               </p>
             </Tab>
           </TabList>
+          {/* Tabs content */}
+          <TabPanel>
+            <TabComponentOne />
+          </TabPanel>
         </Tabs>
       </div>
     );
