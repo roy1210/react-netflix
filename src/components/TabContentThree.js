@@ -159,6 +159,7 @@ const TabContainer = styled.div`
     padding: 0.8rem 1.2rem;
     text-align: center;
   }
+
   table tbody tr td:first-child {
     text-align: left;
   }

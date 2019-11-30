@@ -35,8 +35,8 @@ const TabContentTwo = () => {
                 paddingBottom: "0.625rem"
               }}
             />
-            <h3>Watch on your TV</h3>
-            <p>Smart,TVs, PlayStation, Xbox, Chromecast, Apple TV, and more</p>
+            <h3>Watch on your tablet</h3>
+            <p>Tablet, Phone, iOS, Android</p>
           </div>
           {/* Maacbook image container */}
           <div>
@@ -49,8 +49,8 @@ const TabContentTwo = () => {
                 paddingBottom: "0.625rem"
               }}
             />
-            <h3>Watch on your TV</h3>
-            <p>Smart,TVs, PlayStation, Xbox, Chromecast, Apple TV, and more</p>
+            <h3>Watch on your laptop</h3>
+            <p>MacOS, Windows, Linux</p>
           </div>
         </div>
       </div>
