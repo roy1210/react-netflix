@@ -27,6 +27,7 @@ $ npm start
 - react-icons-kit
 - react-router-dom
 - styled-components
+- react-icons-kit
 
 ## Licence
 

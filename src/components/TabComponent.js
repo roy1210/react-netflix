@@ -6,6 +6,7 @@ import TabPrices from "./tabs_nav/TabPrices";
 import "../css/TabsNav.css";
 import TabComponentOne from "./TabComponentOne";
 import TabComponentTwo from "./TabContentTwo";
+import TabComponentThree from "./TabContentThree";
 
 class TabComponent extends Component {
   state = {
@@ -69,6 +70,9 @@ class TabComponent extends Component {
 
           <TabPanel>
             <TabComponentTwo />
+          </TabPanel>
+          <TabPanel>
+            <TabComponentThree />
           </TabPanel>
         </Tabs>
       </div>
