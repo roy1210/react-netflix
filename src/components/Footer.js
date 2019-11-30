@@ -101,6 +101,12 @@ class Footer extends Component {
             <ul>
               <li>French</li>
             </ul>
+            <ul>
+              <li>日本語</li>
+            </ul>
+            <ul>
+              <li>繁體中文</li>
+            </ul>
           </div>
         )}
         <span style={{ marginLeft: "15.5%", fontSize: "0.9rem" }}>
