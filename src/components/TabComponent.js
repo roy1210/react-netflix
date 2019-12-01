@@ -28,13 +28,17 @@ class TabComponent extends Component {
               }`}
             >
               <TabDoor />
-              <p style={{ marginBottom: "1.875rem" }}>
+              <p className="lgScreen" style={{ marginBottom: "1.875rem" }}>
                 <strong>
                   No commitments
                   <br />
                   Cancel online at anytime
                 </strong>
               </p>
+              <br />
+              <span className="mdScreen" style={{ marginTop: "0.4rem" }}>
+                Cancel
+              </span>
             </Tab>
 
             <Tab
@@ -45,9 +49,13 @@ class TabComponent extends Component {
               onSelect={tabIndex => this.setState({ tabIndex })}
             >
               <TabDevices />
-              <p style={{ marginTop: "-5.3125rem" }}>
+              <p className="lgScreen" style={{ marginTop: "-5.3125rem" }}>
                 <strong>Watch anywhere</strong>
               </p>
+              <br />
+              <span className="mdScreen" style={{ marginTop: "-5.3125rem" }}>
+                Devices
+              </span>
             </Tab>
 
             <Tab
@@ -58,9 +66,11 @@ class TabComponent extends Component {
               onSelect={tabIndex => this.setState({ tabIndex })}
             >
               <TabPrices />
-              <p>
+              <p className="lgScreen">
                 <strong>pick your price</strong>
               </p>
+              <br />
+              <span className="mdScreen">Price</span>
             </Tab>
           </TabList>
           {/* Tabs content */}

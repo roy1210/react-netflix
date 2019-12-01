@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 const Button = styled.button`
   /* custom modified */
-  width: ${props => (props.primary ? "35%" : "")};
+  /* width: ${props => (props.primary ? "30%" : "")}; */
   align-self: ${props => (props.primary ? "center" : "")};
+  
   /* original */
   display: inline-block;
   background: var(--main-red);
